@@ -20,7 +20,7 @@ a {
 button {
   font-family: inherit;
 }
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -31,19 +31,20 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 
 /*Header*/
 .logo {
-  color: var(--SLATE);
+  color: var(--IRIS);
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-accent {
-  color: var(--IRIS);
+  color: var(--NAVY-BLUE);
 }
 .nav-link {
   color: var(--NAVY-BLUE);
@@ -55,10 +56,11 @@ button {
   color: var(--OCEAN);
   text-decoration: underline;
 }
-
+address {
+  font-style: normal;
+}
 .contact-mail {
   color: var(--SLATE);
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -69,7 +71,6 @@ button {
 }
 .contact-tel {
   color: var(--SLATE);
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
@@ -84,6 +85,7 @@ button {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -122,6 +124,10 @@ button {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+}
+.team-list {
+  background-color: var(--WHITE);
 }
 .team-title {
   color: var(--NAVY-BLUE);
@@ -142,6 +148,7 @@ button {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-title {
   color: var(--NAVY-BLUE);
@@ -160,13 +167,8 @@ footer {
   color: var(--CLOUD);
   background-color: var(--NAVY-BLUE);
 }
-.logo-footer {
+.logo-accent-footer {
   color: var(--CLOUD);
-  font-family: Raleway;
-  font-size: 18px;
-  line-height: 1.16; /* 116.667% */
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .footer-text {
   color: var(--CLOUD);
