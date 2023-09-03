@@ -49,14 +49,14 @@ button {
 address {
   font-style: normal;
 }
-.contacts {
+.contact-link {
   color: var(--SLATE);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--OCEAN);
 }
 
