@@ -49,21 +49,15 @@ button {
 address {
   font-style: normal;
 }
-.contact-mail {
+.contacts {
   color: var(--SLATE);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--OCEAN);
-}
-.contact-tel {
-  color: var(--SLATE);
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
 }
 
 /*Section hero*/
