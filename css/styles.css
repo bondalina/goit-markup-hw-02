@@ -152,7 +152,7 @@ address {
   letter-spacing: 0.02em;
 }
 /*Footer*/
-footer {
+.footer {
   color: var(--CLOUD);
   background-color: var(--NAVY-BLUE);
 }
