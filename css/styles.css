@@ -52,7 +52,8 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.nav-link:active {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--OCEAN);
   text-decoration: underline;
 }
@@ -94,7 +95,6 @@ address {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
-  border: none;
 }
 .hero-button:hover,
 .hero-button:focus {
